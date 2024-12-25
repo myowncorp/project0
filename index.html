@@ -34,18 +34,13 @@
 
     <div class="container d-flex justify-content-center align-items-center ">
         <div class="row inputandbtn">
-            <form id="si">
+            <form method="get" action="google.com/search">
                 <div class="form-group">
                     <input type="text" class="form-control searchinput" name="q">
                 </div>
                 <div class="form-group container d-flex" id="searchluckybtngroup">
-                    <!-- This will hold the search and im feeling lucky button -->
-                    <div class="form-group" id="googlesearchbtn">
-                        <button type ="submit" formaction="https://www.google.com/search"> gsearch </button>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" formaction="https://www.google.com/search?btnI&q"> Im feeling lucky</button>
-                    </div>
+                        <button type="submit" class="btn btn-primary" name="search" formaction="https://www.google.com/search">gsearch</button>
+                        <button type="submit" class="btn btn-primary" name ="btnI" formaction="https://www.google.com/search?btnI=1&q" >I'm feeling lucky</button>
                 </div>
             </form>
 
