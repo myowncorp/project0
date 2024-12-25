@@ -1,0 +1,55 @@
+.form-control {
+  border-radius: 50px;
+  width: 500px;
+}
+
+/* SECTION - advanced search */
+/*this is for the rows in advancedsearch.html contained the words of the search and the text box, such as "all these words" and the input box */
+.advsearchrows {
+  width: 50%;
+}
+.advsearchrows .advanced-search {
+  border-radius: 0px; /*this is for the rows in advancedsearch.html contained the words of the search and the text box, such as "all these words" and the input box */
+  width: 250%;
+}
+
+#advbuttondiv {
+  float: right;
+  margin-right: 242px;
+  height: 40px;
+}
+#advbuttondiv #advbutton {
+  border-radius: 0px;
+  height: 30px;
+  width: 120px;
+  font-size: 10px;
+}
+
+/*this is for the rows in advancedsearch.html contained the words of the search and the text box, such as "all these words" and the input box */
+/* END SECTION - ADVANCED SEARCH */
+#searchluckybtngroup {
+  padding-top: 10px;
+  padding-left: 110px; /* centers the search buttons under the search bar on index.html */
+}
+
+/* GOOGLE IMAGE SEARCH DOES NOT HAVE A BUTTON
+#imagesearchinput {
+	padding-top: 10px;
+	padding-left:150px;
+} */
+/* this affect the normal google search button*/
+#googlesearchbtn {
+  margin-right: 15px; /* this seperates the left button from the right on index.html */
+}
+
+/* this class moves the button and input box up a little more to the center as unit on index.html*/
+.inputandbtn {
+  margin-top: 350px;
+}
+
+/* this class moves the button and input box up a little more to the cneter as unit on imagesearch.html */
+.inputandbtniamage {
+  height: 160px; /* a little higher than index.html because it lacks the button*/
+}
+
+/*# sourceMappingURL=style.css.map */
